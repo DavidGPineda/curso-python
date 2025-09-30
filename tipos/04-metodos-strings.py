@@ -1,0 +1,13 @@
+animal = "  bearEliot  "
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("l"))
+print(animal.find("sl"))
+print(animal.replace("l", "ll"))
+print("ot" in animal)
+print("ot" not in animal)
