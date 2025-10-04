@@ -1,8 +1,10 @@
+""" Manipulacion de listas """
 pets = ["bear", "lion", "wolf", "colibri"]
-print(pets[2])
+print("nombre: ", pets[2])
+print("nombre: ", pets[0])
 
 pets[3] = "pangolin"
-print(pets)
+print("Datos de pets: ", pets)
 print(pets[2:])
 print(pets[-1])  # el ultimo
 print(pets[::2])  # solo pares, empieza desde 0

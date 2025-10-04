@@ -15,3 +15,8 @@ print("Ceros: ", ceros)
 print("alfanumerico: ", alfanumerico)
 print("rango: ", rango)
 print("char: ", char)
+
+mi_lista = list()
+lista = []
+print(type(lista))
+print(type(mi_lista))
