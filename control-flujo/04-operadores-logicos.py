@@ -13,3 +13,8 @@ edad = 18
 
 if not gas and encendido and edad > 17:
     print("Puedes avanzar")
+
+
+# and → ambas deben cumplirse
+# or → al menos una
+# not → niega (invierte el resultado lógico)

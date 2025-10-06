@@ -13,3 +13,5 @@ print("Listo")
 
 # El orden es importante ya que si ponemos el >= a 18 en
 # primer lugar no va evaluar otros elif ya que el primero fue verdadero
+
+# Solo una rama se ejecuta (la primera que sea verdadera).
