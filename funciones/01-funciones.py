@@ -1,9 +1,19 @@
-def hola(name, surname="fsociaty"):
-    print(f"Hola {name} {surname}")
+"""Funciones"""
 
 
-hola("bear", "elliot")
-hola("Elliot", "fsociety")
-hola("Darleane")
+def persona(name, surname="fsociaty"):
+    return (f"Hola, {name} {surname}")
 
-hola(surname="mr.robot", name="ellie")
+
+def empresa(company, person):
+    print(f"Empresa: {company}, Persona: {person}")
+
+
+empresa("fsociaty", persona("Anderson", "Elliot"))
+
+
+persona("bear", "elliot")
+persona("Elliot", "fsociety")
+persona("Darleane")
+
+persona(surname="mr.robot", name="ellie")
