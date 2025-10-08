@@ -87,17 +87,17 @@ class Perro(Animal):
 
 # Composición (Una clase dentro de otra)
 
-class Motor:
-    def encender(self):
-        print("Motor encendido")
+# class Motor:
+#     def encender(self):
+#         print("Motor encendido")
 
 
-class Auto:
-    def __init__(self):
-        self.motor = Motor()
+# class Auto:
+#     def __init__(self):
+#         self.motor = Motor()
 
 
-mi_auto = Auto()
-mi_auto.motor.encender()
+# mi_auto = Auto()
+# mi_auto.motor.encender()
 
 # Esto se usa muchísimo en proyectos grandes (como Django, FastAPI, videojuegos, etc.).
