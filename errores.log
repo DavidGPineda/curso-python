@@ -1,0 +1,6 @@
+2025-10-14 12:42:02,904 - ERROR - Error de valor: could not convert string to float: 'hola'
+2025-10-14 12:42:35,191 - ERROR - Saldo insuficiente: Saldo insuficiente
+2025-10-14 12:43:13,113 - ERROR - Error de valor: La cantidad a depositar deber ser positiva
+2025-10-14 12:43:30,446 - ERROR - Error de valor: could not convert string to float: 'x'
+2025-10-14 14:14:43,575 - ERROR - Error de valor: La cantidad a depositar deber ser positiva
+2025-10-14 14:24:19,992 - ERROR - Error de valor: could not convert string to float: 'r'
