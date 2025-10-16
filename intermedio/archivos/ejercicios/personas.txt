@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Bear",
+        "edad": 25,
+        "ciudad": "mantha"
+    },
+    {
+        "nombre": "far",
+        "edad": 80,
+        "ciudad": "man"
+    }
+]
