@@ -1,10 +1,15 @@
-from openpyxl import load_workbook
+from openpyxl import load_workbook, Workbook
+from pathlib import Path
+
+ruta_archivo = Path(__file__).parent / "empleados.xlsx"
 
 # cargar el archivo de excel
-wb = load_workbook("empleados.xlsx")
+# wb = load_workbook(ruta_archivo)
+# wb = load_workbook("empleados.xlsx")
 
 # seleccionar  la hoja (Sheet1 por defecto)
-hoja = wb.active  # o wb["Sheet1"]
+# hoja = wb.active  # o wb["Sheet1"]
+
 
 # Leer celdas especificas
 # print(hoja["A1"].value)  # Primera celda (encabezado)
@@ -93,20 +98,27 @@ hoja = wb.active  # o wb["Sheet1"]
 # Borrar una fila
 
 # Pedir nombre para eliminar
-nombre_buscar = input("Ingrese el nombre del empleado a eliminar: ").strip()
+# nombre_buscar = input("Ingrese el nombre del empleado a eliminar: ").strip()
 
-fila_eliminar = None
+# fila_eliminar = None
 
 # Buscar fila
-for fila in hoja.iter_rows(min_row=2):
-    if fila[0].value and fila[0].value.lower() == nombre_buscar.lower():
-        fila_eliminar = fila[0].row  # Guardamos el número de la fila real
-        break
+# for fila in hoja.iter_rows(min_row=2):
+#     if fila[0].value and fila[0].value.lower() == nombre_buscar.lower():
+#         fila_eliminar = fila[0].row  # Guardamos el número de la fila real
+#         break
 
 # Eliminar si se encontró
-if fila_eliminar:
-    hoja.delete_rows(fila_eliminar, 1)  # Borrar un fila
-    wb.save("empleados.xlsx")
-    print(f"Empleado '{nombre_buscar}' eliminado correctamente.")
-else:
-    print("Empleado no encontrado")
+# if fila_eliminar:
+#     hoja.delete_rows(fila_eliminar, 1)  # Borrar una fila
+#     wb.save("empleados.xlsx")
+#     print(f"Empleado '{nombre_buscar}' eliminado correctamente.")
+# else:
+#     print("Empleado no encontrado")
+
+# Mostrar nombres de las hojas
+# print("Hojas del archivo Excel:")
+# for hoja in wb.sheetnames:
+#     print(" -", hoja)
+
+# --------------------------------------
