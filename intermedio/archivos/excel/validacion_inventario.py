@@ -4,7 +4,7 @@ from openpyxl.styles.protection import Protection
 from pathlib import Path
 
 # Ruta del archivo
-ruta_archivo = Path(__file__).parent / "reporte.xlsx"
+ruta_archivo = Path(__file__).parent / "reportes.xlsx"
 wb = load_workbook(ruta_archivo)
 hoja = wb["Inventario"]
 

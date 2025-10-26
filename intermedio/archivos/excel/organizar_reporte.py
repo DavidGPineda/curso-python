@@ -1,12 +1,11 @@
 from openpyxl import load_workbook, Workbook
 from pathlib import Path
 
-ruta_archivo = Path(__file__).parent / "reporte.xlsx"
+ruta_archivo = Path(__file__).parent / "reportes.xlsx"
 
 wb = load_workbook(ruta_archivo)
 
 # Paso 1: Crear un archivo Excel nuevo
-# Crear un nuevo libro de excel
 # wb = Workbook()
 
 # Guardarlo en la carpeta actual

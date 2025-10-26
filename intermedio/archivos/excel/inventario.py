@@ -3,7 +3,7 @@ from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from pathlib import Path
 
 
-ruta_archivo = Path(__file__).parent / "reporte.xlsx"
+ruta_archivo = Path(__file__).parent / "reportes.xlsx"
 wb = load_workbook(ruta_archivo)
 hoja = wb["Inventario"]
 

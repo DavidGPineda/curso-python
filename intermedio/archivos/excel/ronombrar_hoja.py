@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 from pathlib import Path
 
 # Ruta al archivo Excel
-ruta_archivo = Path(__file__).parent / "reporte.xlsx"
+ruta_archivo = Path(__file__).parent / "reportes.xlsx"
 
 # Abrir archivo
 wb = load_workbook(ruta_archivo)
